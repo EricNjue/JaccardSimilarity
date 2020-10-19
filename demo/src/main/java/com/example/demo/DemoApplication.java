@@ -19,7 +19,7 @@ public class DemoApplication {
 
 
         JaccardSimilarity jaccardSimilarity = new JaccardSimilarity();
-        Double applyJaccard = Math.ceil(jaccardSimilarity.apply(eric.toString(), eric.middleFirstLastString()) * 100);
+        Double applyJaccard = Math.ceil(jaccardSimilarity.apply(eric.toString(), "Eric Gitonga") * 100);
 
         System.out.printf("JaccardSimilarity: %s%n", applyJaccard);
 
